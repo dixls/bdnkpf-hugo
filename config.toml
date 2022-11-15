@@ -9,18 +9,18 @@ title = "bdnkpf"
     url = '/'
     weight = 0
 [[menu.main]]
-    identifier = 'portfolio'
-    name = 'Portfolio'
-    url = '/portfolio'
+    identifier = 'work'
+    name = 'Work'
+    url = '/work'
     weight = 10
 
-[[menu.portfolioCategories]]
+[[menu.workCategories]]
     identifier = 'bike'
     name = 'Bike'
-    url = '/portfolio/bike'
+    url = '/work/bike'
     weight = 10
-[[menu.portfolioCategories]]
+[[menu.workCategories]]
     identifier = 'keyboard'
     name = 'Keyboard'
-    url = '/portfolio/keyboard'
+    url = '/work/keyboard'
     weight = 20
