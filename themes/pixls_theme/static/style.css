@@ -1,0 +1,41 @@
+:root {
+    --medium-gray: rgb(194, 193, 189)
+}
+
+html {
+    background-color: var(--medium-gray);
+}
+
+nav {
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+nav ul {
+    padding: 0;
+    display: inline-flex;
+    list-style: none;
+}
+
+nav li {
+    padding: 4px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: var(--medium-gray);
+    background-color: black;
+}
+
+.site-logo a:hover {
+    background-color: var(--medium-gray);
+}

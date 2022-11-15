@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ block "title" }}{{ .Site.Title }}{{end}}</title>
+    <title>{{ block "title" . }}{{ .Site.Title }}{{end}}</title>
     <link rel="stylesheet" href="/style.css">
 </head>
     <header>
-        {{ partial "nav.html" }}
+        {{ partial "nav.html" . }}
     </header>
 <body>
     <main>
         {{ block "main" . }}
-
+        {{ .Content }}
         {{ end }}
     </main>
 </body>

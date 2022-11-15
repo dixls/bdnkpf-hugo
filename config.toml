@@ -1,6 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "bdnkpf"
+theme = "pixls_theme"
 
 [menu]
 [[menu.main]]
@@ -24,3 +25,7 @@ title = "bdnkpf"
     name = 'Keyboard'
     url = '/work/keyboard'
     weight = 20
+
+
+[params]
+    
