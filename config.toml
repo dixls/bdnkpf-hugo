@@ -1,3 +1,26 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "bdnkpf"
+
+[menu]
+[[menu.main]]
+    identifier = 'home'
+    name = 'Home'
+    url = '/'
+    weight = 0
+[[menu.main]]
+    identifier = 'portfolio'
+    name = 'Portfolio'
+    url = '/portfolio'
+    weight = 10
+
+[[menu.portfolioCategories]]
+    identifier = 'bike'
+    name = 'Bike'
+    url = '/portfolio/bike'
+    weight = 10
+[[menu.portfolioCategories]]
+    identifier = 'keyboard'
+    name = 'Keyboard'
+    url = '/portfolio/keyboard'
+    weight = 20
