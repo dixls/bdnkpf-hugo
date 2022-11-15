@@ -5,7 +5,7 @@
     <ul>
         {{ range .Pages }}
         <li>
-            {{.Title}}
+            <a href="{{.Permalink}}">{{.Title}}</a>
         </li>
         {{ end }}
     </ul>

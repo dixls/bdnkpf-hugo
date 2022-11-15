@@ -1,9 +1,12 @@
 :root {
-    --medium-gray: rgb(194, 193, 189)
+    --medium-gray: rgb(194, 193, 189);
+    --text-color: black;
 }
 
 html {
     background-color: var(--medium-gray);
+    color: var(--text-color);
+    font-family: sans-serif;
 }
 
 nav {
@@ -19,23 +22,38 @@ nav ul {
 }
 
 nav li {
+    font-size: 1.25rem;
     padding: 4px;
 }
 
-nav a {
+nav li a {
     text-decoration: none;
+    padding: 4px;
 }
 
-nav a:visited {
-    color: black;
+a:visited {
+    color: var(--text-color);
 }
 
-nav a:hover {
+a:not(.nohover):hover {
     text-decoration: none;
     color: var(--medium-gray);
     background-color: black;
 }
 
-.site-logo a:hover {
-    background-color: var(--medium-gray);
+h1 {
+    font-weight: normal;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+h3 {
+    font-weight: normal;
+}
+
+main {
+    margin:auto;
+    width: 80%;
 }

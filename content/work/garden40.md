@@ -6,7 +6,7 @@ draft: false
 
 As part of the Keycraft Collective Spring Design Jam, I decided to design a keyboard inspired by indoor plant life. The prompt for the design jam was to create a design for something keyboard related inspired by springtime. My mind immediately went to plants and the fresh greenery that comes with spring. Knowing many people enjoy having small plants in their work area, I thought it would be fun to pursue that relationship in a direct and literal way. The resulting design is a concept rendered in terracotta that features a split style keyboard with a prominent terrarium nested neatly between the two halves.
 
-The final renders feature KAM Bouquet keycaps designed by (Adobau Labs)[https://adobaulabs.com/].
+The final renders feature KAM Bouquet keycaps designed by [Adobau Labs](https://adobaulabs.com/).
 
 
 ### Ideating

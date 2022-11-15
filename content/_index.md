@@ -1,7 +1,7 @@
 ---
 title: home
+layout: single
 ---
-
 
 # Hi I'm Yara
 
