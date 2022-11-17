@@ -3,6 +3,11 @@ languageCode = "en-us"
 title = "bdnkpf"
 theme = "pixls_theme"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [menu]
 [[menu.main]]
     identifier = 'home'
@@ -28,4 +33,3 @@ theme = "pixls_theme"
 
 
 [params]
-    

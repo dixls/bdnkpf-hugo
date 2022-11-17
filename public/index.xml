@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>bdnkpf</title>
+    <title>home on bdnkpf</title>
     <link>http://example.org/</link>
-    <description>Recent content on bdnkpf</description>
+    <description>Recent content in home on bdnkpf</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 15 Nov 2022 13:33:58 -0500</lastBuildDate>
     
 	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Garden40</title>
-      <link>http://example.org/work/garden40/</link>
-      <pubDate>Tue, 15 Nov 2022 13:33:58 -0500</pubDate>
-      
-      <guid>http://example.org/work/garden40/</guid>
-      <description>As part of the Keycraft Collective Spring Design Jam, I decided to design a keyboard inspired by indoor plant life. The prompt for the design jam was to create a design for something keyboard related inspired by springtime. My mind immediately went to plants and the fresh greenery that comes with spring. Knowing many people enjoy having small plants in their work area, I thought it would be fun to pursue that relationship in a direct and literal way.</description>
-    </item>
     
   </channel>
 </rss>
