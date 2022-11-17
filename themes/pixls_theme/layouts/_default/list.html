@@ -1,8 +1,10 @@
 {{ define "title"}}{{ .Title }}{{end}}
 
 {{ define "main" }}
-<h1>{{ .Title }}</h1>
-{{ .Content }}
+<section class="flex-container">
+<div class="flex-p">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
     <ul>
         {{ range .Pages }}
         <li>
@@ -10,4 +12,6 @@
         </li>
         {{ end }}
     </ul>
+</div>
+</section>
 {{ end }}
