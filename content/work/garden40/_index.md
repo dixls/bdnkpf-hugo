@@ -19,7 +19,7 @@ The final renders feature KAM Bouquet keycaps designed by [Adobau Labs](https://
 {{% /hero %}}
 
 
-{{% flex %}}
+{{% flex align="center" %}}
 {{% textflex %}}
 ### Ideating
 
@@ -33,7 +33,7 @@ I had already become fairly well acquainted with keyboard design practices over 
 
 {{% /flex %}}
 
-{{% flex align="right" %}}
+{{% flex align="center" %}}
 {{% textflex %}}
 
 ### Modeling

@@ -6,7 +6,7 @@
 html {
     background-color: var(--medium-gray);
     color: var(--text-color);
-    font-family: sans-serif;
+    font-family: "Public Sans", sans-serif;
 }
 
 body {
@@ -28,7 +28,7 @@ nav ul {
 nav li {
     font-size: 1.25rem;
     padding: 4px;
-    font-weight: lighter;
+    font-weight: 200;
 }
 
 nav li a {
@@ -48,15 +48,17 @@ a:not(.nohover):hover {
 
 h1 {
     font-size: 3rem;
-    font-weight: normal;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 h2 {
-    font-weight: normal;
+    font-weight: 500;
 }
 
 h3 {
-    font-weight: normal;
+    font-weight: 500;
 }
 
 main {
@@ -64,9 +66,12 @@ main {
 }
 
 p {
-    max-width: 80%;
-    display: inline-flex;
-    align-self: inherit;
+    max-width: 100%;
+    font-weight: 300;
+}
+
+figure {
+    margin: 0;
 }
 
 figcaption {
@@ -76,18 +81,21 @@ figcaption {
 
 .flex-container {
     display: flex;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
     max-width: 1200px;
     margin:auto;
+    flex-wrap: nowrap;
 }
 
 .flex-container .flex-p {
-    max-width: 60%;
-    
-    align-self: inherit;
+    max-width: 40%;
+}
+
+.flex-p a {
+    display: inline;
 }
 
 .flex-container figure {
@@ -119,4 +127,8 @@ figcaption {
     text-align: right;
     flex-direction: column;
     align-items: flex-end;
+}
+
+.align-center {
+    justify-content: center;
 }
