@@ -4,7 +4,7 @@ date: 2022-11-15T13:33:58-05:00
 layout: single
 draft: false
 ---
-{{% hero color="black" lighten=true %}}
+{{% hero color="white" %}}
 {{% flex %}}
 {{% textflex %}}
 
@@ -34,6 +34,9 @@ I had already become fairly well acquainted with keyboard design practices over 
 {{% /flex %}}
 
 {{% flex align="center" %}}
+
+{{< gallery src="content/work/garden40/images/modeling" >}}
+
 {{% textflex %}}
 
 ### Modeling

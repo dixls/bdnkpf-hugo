@@ -109,13 +109,22 @@ figcaption {
     padding-bottom: 50px;
 }
 
+.hero .flex-p {
+    padding: 25px;
+    background-color: rgb(0,0,0,.8);
+}
+
+.hero h1 {
+    margin: 0;
+}
+
 .bg-darken {
     background-color: rgba(0,0,0,.3);
     background-blend-mode:color-burn;
 }
 
 .bg-lighten {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.3);
     background-blend-mode:color-dodge;
 }
 
@@ -131,4 +140,8 @@ figcaption {
 
 .align-center {
     justify-content: center;
+}
+
+.gallery {
+    max-width: 60%;
 }

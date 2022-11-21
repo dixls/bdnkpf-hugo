@@ -1,0 +1,9 @@
+{{ $src := .Get "src"}}
+
+<div class="gallery">
+{{ range readDir $src }}
+<figure class="gallery-img">
+<a href="{{$src}}/{{.Name}}"><img src="{{$src}}/{{.Name}}" alt="{{.Name}}"></a>
+</figure>
+{{ end }}
+</div>
