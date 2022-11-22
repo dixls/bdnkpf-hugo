@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ block "title" . }}{{ .Site.Title }}{{end}}</title>
-    <link rel="stylesheet" href="{{"/public-sans/stylesheet.css" | relURL }}">
-    <link rel="stylesheet" href="{{ "/style.css" | relURL }}">
+    <link rel="stylesheet" href="{{"public-sans/stylesheet.css" | absURL }}">
+    <link rel="stylesheet" href="{{ "style.css" | absURL }}">
 </head>
     <header>
         {{ partial "nav.html" . }}
