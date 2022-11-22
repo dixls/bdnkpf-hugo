@@ -2,4 +2,4 @@ title = "Website Name"
 languageCode = 'en-us'
 
 
-staticDir = ['static', 'post_assets']
+staticDir = ['static']

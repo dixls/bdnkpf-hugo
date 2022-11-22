@@ -1,6 +1,4 @@
 
-<section class="hero {{with .Get "color"}}{{.}}{{end}} {{with .Get "align" }}align-{{.}}{{end}}"
-style="background-image: url('images/hero.png')"
->
+<section class="hero {{with .Get "color"}}{{.}}{{end}} {{with .Get "align" }}align-{{.}}{{end}}"{{ with .Get "end" }}{{ else }}style="background-image: url('images/hero.png')"{{ end }}>
 {{ .Inner }}
 </section>

@@ -1,7 +1,7 @@
 {{ $src := .Get "src" }}
 {{ $format := .Get "format" }}
 
-<div class="gallery">
+<div class="gallery" {{with .Get "flex-wrap"}}style="flex-wrap:{{.}};"{{end}}>
 {{ with .Page.Resources.Match (print $src "/*") }}
 {{ range . }}
 {{ $thumbnail := .Resize "500x" }}
