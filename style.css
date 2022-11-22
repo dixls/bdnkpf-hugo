@@ -1,0 +1,192 @@
+:root {
+    --medium-gray: rgb(194, 193, 189);
+    --text-color: black;
+}
+
+html {
+    background-color: var(--medium-gray);
+    color: var(--text-color);
+    font-family: "Public Sans", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+nav ul {
+    padding: 0;
+    display: inline-flex;
+    list-style: none;
+}
+
+nav li {
+    font-size: 1.25rem;
+    padding: 4px;
+    font-weight: 200;
+}
+
+nav li a {
+    text-decoration: none;
+    padding: 4px;
+}
+
+a {
+    color: var(--text-color)
+}
+
+a:visited {
+    color: var(--text-color);
+}
+
+a:not(.nohover):hover {
+    text-decoration: none;
+    color: var(--medium-gray);
+    background-color: black;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+main {
+    margin: auto;
+}
+
+p {
+    max-width: 100%;
+    font-weight: 300;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-size: .85rem;
+    font-style: italic;
+}
+
+.flex-container {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 1200px;
+    margin:auto;
+    flex-wrap: nowrap;
+}
+
+.flex-container .flex-p {
+    max-width: 40%;
+    margin: 20px;
+}
+
+.flex-p a {
+    display: inline;
+}
+
+.flex-container figure {
+    max-width: 40%;
+    margin: 20px;
+}
+
+.hero {
+    background-size: cover;
+    background-position-y: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hero .flex-p {
+    padding: 25px;
+}
+
+.hero.dark .flex-p {
+    background-color: rgb(0,0,0,.8);
+    color: white;
+}
+
+.hero.dark a {
+    color: white;
+}
+
+.hero.dark a:visited {
+    color: white;
+}
+
+.hero.light .flex-p {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+.hero.light a {
+    color: black;
+}
+
+.hero.light a:visited {
+    color: black;
+}
+
+.hero.align-left .flex-p {
+    padding-left: 20%;
+    margin-left: -16%;
+}
+
+.hero.align-right .flex-p {
+    padding-right: 20%;
+    margin-right: -16%;
+}
+
+.hero h1 {
+    margin: 0;
+}
+
+.bg-darken {
+    background-color: rgba(0,0,0,.3);
+    background-blend-mode:color-burn;
+}
+
+.bg-lighten {
+    background-color: rgba(255, 255, 255, 0.3);
+    background-blend-mode:color-dodge;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-right {
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.align-right .flex-container {
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.align-center {
+    justify-content: center;
+}
+
+.gallery {
+    max-width: 60%;
+}
