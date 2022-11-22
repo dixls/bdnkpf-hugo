@@ -1,4 +1,4 @@
-baseURL = "https://dixls.github.io/bdnkpf-hugo"
+baseURL = "https://dixls.github.io/bdnkpf-hugo/"
 languageCode = "en-us"
 title = "bdnkpf"
 theme = "pixls_theme"

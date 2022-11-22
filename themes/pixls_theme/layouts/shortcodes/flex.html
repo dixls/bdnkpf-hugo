@@ -1,4 +1,4 @@
-<section class="flex-container {{ with .Get "align" }}align-{{ . }}{{end}}">
+<section class="flex-container {{ with .Get "align" }}align-{{ . }}{{end}} {{ with .Get "no-padding"}}no-padding-{{.}}{{ end }}">
 
 {{ .Inner }}
 

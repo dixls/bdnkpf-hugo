@@ -1,12 +1,19 @@
 {{ $src := .Get "src" }}
-{{ $relPath := (print .Page.Title "/" $src "/")}}
+{{ $format := .Get "format" }}
 
 <div class="gallery">
-{{ range readDir (print "/post_assets/" .Page.Title "/" $src) }}
-<figure class="gallery-img">
-    <a href="{{(print $relPath .Name)}}" target="_blank" rel="noopener noreferrer">
-        <img src="{{(print $relPath .Name)}}" alt="{{.Name}}">
-    </a>
-</figure>
+{{ with .Page.Resources.Match (print $src "/*") }}
+{{ range . }}
+{{ $thumbnail := .Resize "500x" }}
+{{ $medium := .Resize "1000x" }}
+<a href="{{ $medium.RelPermalink }}" class="gallery-link" target="_blank" rel="noopener noreferrer">
+{{ if eq $format "img" }}
+<img class="gallery-img" src="{{ $thumbnail.RelPermalink }}" alt="{{ .Title }}">
+{{ else }}
+<div class="gallery-div" style="background-image: url({{ $thumbnail.RelPermalink }});">
+</div>
+{{ end }}
+</a>
+{{ end }}
 {{ end }}
 </div>

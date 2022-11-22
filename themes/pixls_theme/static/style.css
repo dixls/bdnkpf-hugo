@@ -1,16 +1,20 @@
 :root {
     --medium-gray: rgb(194, 193, 189);
+    --light-gray: rgb(241, 241, 241);
+    --background: var(--light-gray);
     --text-color: black;
 }
 
 html {
-    background-color: var(--medium-gray);
+    background-color: var(--background);
     color: var(--text-color);
     font-family: "Public Sans", sans-serif;
 }
 
 body {
     margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.75rem;
 }
 
 nav {
@@ -46,8 +50,8 @@ a:visited {
 
 a:not(.nohover):hover {
     text-decoration: none;
-    color: var(--medium-gray);
-    background-color: black;
+    color: var(--background);
+    background-color: var(--text-color);
 }
 
 h1 {
@@ -94,6 +98,13 @@ figcaption {
     flex-wrap: nowrap;
 }
 
+.no-padding-top {
+    padding-top: 0;
+}
+.no-padding-bottom {
+    padding-bottom: 0;
+}
+
 .flex-container .flex-p {
     max-width: 40%;
     margin: 20px;
@@ -134,15 +145,15 @@ figcaption {
 
 .hero.light .flex-p {
     background-color: rgba(255, 255, 255, 0.8);
-    color: black;
+    color: var(--text-color);
 }
 
 .hero.light a {
-    color: black;
+    color: var(--text-color);
 }
 
 .hero.light a:visited {
-    color: black;
+    color: var(--text-color);
 }
 
 .hero.align-left .flex-p {
@@ -188,5 +199,25 @@ figcaption {
 }
 
 .gallery {
-    max-width: 60%;
+    margin:20px;
+    display: flex;
+}
+
+.gallery-div {
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 250px;
+    max-width: 100%;
+    max-height: 400px;
+}
+
+.gallery-img {
+    width: 100%;
+}
+
+.gallery-link {
+    margin: auto;
+    padding: 10px;
+    max-width:50%
 }

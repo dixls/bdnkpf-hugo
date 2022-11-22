@@ -3,6 +3,7 @@ title: "garden40"
 date: 2022-11-15T13:33:58-05:00
 layout: single
 draft: false
+
 ---
 {{% hero color="dark" align="left" %}}
 {{% flex %}}
@@ -35,7 +36,7 @@ I had already become fairly well acquainted with keyboard design practices over 
 
 {{% flex align="center" %}}
 
-{{< gallery src="modeling" >}}
+{{< gallery src="modeling"  >}}
 
 {{% textflex %}}
 
@@ -45,4 +46,17 @@ After settling on a design from the ideating phase, I went straight to CAD model
 
 
 {{% /textflex %}}
+{{% /flex %}}
+
+{{% flex no-padding="bottom" %}}
+{{% textfill %}}
+
+### Rendering
+
+One I was happy with my model in Fusion, I moved to blender for rendering. I was familiar with Blender from previous art projects, but had never used it for product renders, so I was excited to learn how to make realistic textures to bring this design to life. Using a combination of purchased assets and some knowledge of the Cycles node-based render engine, I was able to achieve some textures I was really happy with. After some final touches and adjustments I was ready to make my final renders.
+
+{{% /textfill %}}
+{{% /flex %}}
+{{% flex align="center" no-padding="top" %}}
+{{< gallery src="rendering" format="img" >}}
 {{% /flex %}}
