@@ -3,6 +3,8 @@ languageCode = "en-us"
 title = "bdnkpf"
 theme = "pixls_theme"
 
+HUGO_CANONIFYURLS=false
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
