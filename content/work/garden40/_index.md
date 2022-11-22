@@ -1,10 +1,10 @@
 ---
-title: "Garden40"
+title: "garden40"
 date: 2022-11-15T13:33:58-05:00
 layout: single
 draft: false
 ---
-{{% hero color="white" %}}
+{{% hero color="dark" align="left" %}}
 {{% flex %}}
 {{% textflex %}}
 
@@ -35,7 +35,7 @@ I had already become fairly well acquainted with keyboard design practices over 
 
 {{% flex align="center" %}}
 
-{{< gallery src="content/work/garden40/images/modeling" >}}
+{{< gallery src="modeling" >}}
 
 {{% textflex %}}
 

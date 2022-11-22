@@ -36,6 +36,10 @@ nav li a {
     padding: 4px;
 }
 
+a {
+    color: var(--text-color)
+}
+
 a:visited {
     color: var(--text-color);
 }
@@ -111,7 +115,42 @@ figcaption {
 
 .hero .flex-p {
     padding: 25px;
+}
+
+.hero.dark .flex-p {
     background-color: rgb(0,0,0,.8);
+    color: white;
+}
+
+.hero.dark a {
+    color: white;
+}
+
+.hero.dark a:visited {
+    color: white;
+}
+
+.hero.light .flex-p {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+.hero.light a {
+    color: black;
+}
+
+.hero.light a:visited {
+    color: black;
+}
+
+.hero.align-left .flex-p {
+    padding-left: 20%;
+    margin-left: -16%;
+}
+
+.hero.align-right .flex-p {
+    padding-right: 20%;
+    margin-right: -16%;
 }
 
 .hero h1 {

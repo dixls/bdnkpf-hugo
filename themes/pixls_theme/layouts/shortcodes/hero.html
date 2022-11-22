@@ -1,6 +1,6 @@
 
-<section class="hero {{if isset .Params "darken"}}bg-darken{{end}} {{if isset .Params "lighten" }}bg-lighten{{end}}"
-style="background-image: url('images/hero.png'){{with .Get "color"}}; color:{{.}}{{end}}"
+<section class="hero {{with .Get "color"}}{{.}}{{end}} {{with .Get "align" }}align-{{.}}{{end}}"
+style="background-image: url('images/hero.png')"
 >
 {{ .Inner }}
 </section>

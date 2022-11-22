@@ -1,9 +1,12 @@
-{{ $src := .Get "src"}}
+{{ $src := .Get "src" }}
+{{ $relPath := (print .Page.Title "/" $src "/")}}
 
 <div class="gallery">
-{{ range readDir $src }}
+{{ range readDir (print "/post_assets/" .Page.Title "/" $src) }}
 <figure class="gallery-img">
-<a href="{{$src}}/{{.Name}}"><img src="{{$src}}/{{.Name}}" alt="{{.Name}}"></a>
+    <a href="{{(print $relPath .Name)}}" target="_blank" rel="noopener noreferrer">
+        <img src="{{(print $relPath .Name)}}" alt="{{.Name}}">
+    </a>
 </figure>
 {{ end }}
 </div>

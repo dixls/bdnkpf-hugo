@@ -1,3 +1,6 @@
 title = "Website Name"
 baseURL = 'https://example.org'
 languageCode = 'en-us'
+
+
+staticDir = ['static', 'post_assets']
