@@ -3,6 +3,8 @@
     --light-gray: rgb(241, 241, 241);
     --background: var(--light-gray);
     --text-color: black;
+    --body-font-size: 1.05rem;
+    --body-line-height: 1.75rem;
 }
 
 html {
@@ -13,8 +15,8 @@ html {
 
 body {
     margin: 0;
-    font-size: 1.05rem;
-    line-height: 1.75rem;
+    font-size: var(--body-font-size);
+    line-height: var(--body-line-height);
 }
 
 nav {
@@ -240,6 +242,7 @@ figcaption {
 
 .gallery-img {
     width: 100%;
+    display: block;
 }
 
 .gallery-link {
