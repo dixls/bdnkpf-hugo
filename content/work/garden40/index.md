@@ -5,7 +5,7 @@ layout: single
 draft: false
 
 ---
-{{% hero color="dark" align="left" %}}
+{{% hero color="dark" align="left" src="images/hero-no-logo.png" %}}
 {{% flex %}}
 {{% textflex %}}
 
