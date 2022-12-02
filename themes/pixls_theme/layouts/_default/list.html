@@ -5,13 +5,11 @@
 <div class="flex-p">
     <h1>{{ .Title }}</h1>
     {{ .Content }}
-    <ul>
+    <div class="portfolio-grid">
         {{ range .Pages }}
-        <li>
-            <a href="{{.Permalink}}">{{.Title}}</a>
-        </li>
+        {{ partial "card.html" . }}
         {{ end }}
-    </ul>
+    </div>
 </div>
 </section>
 {{ end }}

@@ -1,0 +1,9 @@
+{{ $thumbnail := .Page.Resources.GetMatch .Params.thumbnail }}
+{{ $thumbnail := $thumbnail.Resize "500x"}}
+
+<div class="card">
+    <a href="{{.Permalink}}">
+    <div class="card-img" style="background-image:url({{$thumbnail.RelPermalink}})"></div>
+    <div class="card-title">{{.Title}}</div>
+</a>
+</div>

@@ -3,6 +3,7 @@ title: "garden40"
 date: 2022-11-15T13:33:58-05:00
 layout: single
 draft: false
+thumbnail: "images/hero-no-logo.png"
 
 ---
 {{% hero color="dark" align="left" src="images/hero-no-logo.png" %}}
