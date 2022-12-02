@@ -251,3 +251,42 @@ figcaption {
     width:30%;
     flex-grow: 1;
 }
+
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    width: 350px;
+    border: 2px solid var(--medium-gray);
+    border-radius: 10px;
+    flex:1;
+    flex-basis:auto;
+}
+
+.card-img {
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-title {
+    max-width: 100%;
+    padding: .5rem 1rem;
+    background-color: var(--medium-gray);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.card a {
+    text-decoration: none;
+}
+
+.card a:hover .card-title {
+    background-color: var(--text-color);
+}
