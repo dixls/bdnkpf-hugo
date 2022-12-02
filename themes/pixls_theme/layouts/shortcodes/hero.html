@@ -1,4 +1,4 @@
-{{ $hero := .Page.Resources.GetMatch "images/hero.png" }}
+{{ $hero := .Page.Resources.GetMatch .Page.Params.hero }}
 {{ if isset .Params "src" }}
 {{ $hero = .Page.Resources.GetMatch (.Get "src") }}
 {{ end }}

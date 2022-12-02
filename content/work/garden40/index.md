@@ -4,9 +4,9 @@ date: 2022-11-15T13:33:58-05:00
 layout: single
 draft: false
 thumbnail: "images/hero-no-logo.png"
-
+hero: "images/hero-no-logo.png"
 ---
-{{% hero color="dark" align="left" src="images/hero-no-logo.png" %}}
+{{% hero color="dark" align="left" %}}
 {{% flex %}}
 {{% textflex %}}
 
@@ -31,7 +31,7 @@ Since the design jam lasted only one week, and I had limited time to dedicate to
 I had already become fairly well acquainted with keyboard design practices over the previous year, so this gave me a great opportunity to experiment with what I had learned
 {{% /textflex %}}
 
-{{< figure src="images/ideating.jpg" width="100%" alt="scanned image of a page full of sketches" caption="Ideating before settling on a direction" >}}
+{{< figure src="images/ideating.jpg" width="100%" resize="500x" alt="scanned image of a page full of sketches" caption="Ideating before settling on a direction" >}}
 
 {{% /flex %}}
 
