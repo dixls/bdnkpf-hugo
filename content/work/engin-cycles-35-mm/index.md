@@ -1,9 +1,9 @@
 ---
 title: "Engin Cycles 35 Mm"
-date: 2022-12-02T13:54:58-05:00
+date: 2021-01-02T13:54:58-05:00
 layout: single
 draft: false
-thumbnail: "images/hero.jpg"
+thumbnail: "images/thumb.jpg"
 hero: "images/hero.jpg"
 ---
 
