@@ -19,7 +19,7 @@ HUGO_CANONIFYURLS=false
 [[menu.main]]
     identifier = 'work'
     name = 'Work'
-    url = '/work'
+    url = '/work/'
     weight = 10
 
 [[menu.workCategories]]

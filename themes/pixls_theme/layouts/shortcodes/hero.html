@@ -2,7 +2,9 @@
 {{ if isset .Params "src" }}
 {{ $hero = .Page.Resources.GetMatch (.Get "src") }}
 {{ end }}
+{{ with $hero }}
 {{ $hero = $hero.Resize "2000x" }}
+{{ end }}
 <section class="hero {{with .Get "color"}}{{.}}{{end}} {{with .Get "align" }}align-{{.}}{{end}}"{{ with .Get "end" }}{{ else }}style="background-image: url('{{ $hero.RelPermalink }}')"{{ end }}>
 {{ .Inner }}
 </section>

@@ -20,7 +20,7 @@
                     {{ end }}
                 </ul>
             {{ else }}
-                <li>
+                <li class="{{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}">
                     <a href="{{ .URL }}">
                         {{ .Pre }}
                         <span>{{ .Name }}</span>
