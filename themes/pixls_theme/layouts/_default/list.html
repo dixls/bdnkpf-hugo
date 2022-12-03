@@ -1,6 +1,7 @@
 {{ define "title"}}{{ .Title }}{{end}}
 
 {{ define "main" }}
+<div class="work-container">
 <section class="flex-container">
 <div class="flex-p">
     <h1>{{ .Title }}</h1>
@@ -12,4 +13,5 @@
     {{ partial "card.html" . }}
     {{ end }}
 </section>
+</div>
 {{ end }}
