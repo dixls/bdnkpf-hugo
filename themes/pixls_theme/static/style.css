@@ -5,6 +5,7 @@
     --text-color: black;
     --body-font-size: 1.05rem;
     --body-line-height: 1.75rem;
+    --smaller-font-size: 0.95rem;
 }
 
 html {
@@ -82,6 +83,15 @@ h3 {
 
 h4 {
     font-weight: 200;
+}
+
+blockquote p {
+    padding: 5px 10px;
+    line-height: 1.25rem;
+    border-left: 5px solid grey;
+    font-size: var(--smaller-font-size);
+    background-color: var(--medium-gray);
+    font-weight: 500;
 }
 
 main {

@@ -3,26 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://example.org/work/garden40/</loc>
-    <lastmod>2022-11-15T13:33:58-05:00</lastmod>
+    <loc>https://dixls.github.io/bdnkpf-hugo/work/port-royal-crank/</loc>
+    <lastmod>2022-12-02T15:05:32-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/</loc>
-    <lastmod>2022-11-15T13:33:58-05:00</lastmod>
+    <loc>https://dixls.github.io/bdnkpf-hugo/</loc>
+    <lastmod>2022-12-02T15:05:32-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/work/</loc>
-    <lastmod>2022-11-15T13:33:58-05:00</lastmod>
+    <loc>https://dixls.github.io/bdnkpf-hugo/work/</loc>
+    <lastmod>2022-12-02T15:05:32-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://dixls.github.io/bdnkpf-hugo/work/garden40/</loc>
+    <lastmod>2021-02-15T13:33:58-05:00</lastmod>
   </url>
   
   <url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://dixls.github.io/bdnkpf-hugo/work/engin-cycles-35-mm/</loc>
+    <lastmod>2021-01-02T13:54:58-05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://dixls.github.io/bdnkpf-hugo/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dixls.github.io/bdnkpf-hugo/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://dixls.github.io/bdnkpf-hugo/tags/</loc>
   </url>
   
 </urlset>
